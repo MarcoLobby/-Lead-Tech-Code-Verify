@@ -100,7 +100,7 @@ fun HomeScreen(viewModel: HomeViewModel) {
                         .width(18.dp)
                 )
                 Button(onClick = { viewModel.saveList(text.value) }, enabled = isValid.value) {
-                    Text(text = stringResource(R.string.label_save))
+                    Text(text = stringResource(R.string.label_save), maxLines = 1, overflow = TextOverflow.Ellipsis)
                 }
             }
 
