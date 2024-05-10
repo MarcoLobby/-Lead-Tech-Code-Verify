@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Verifica Codice Lead Tech</string>
+    <string name="label_insertcode">Inserisci qui il tuo codice</string>
+    <string name="label_save">Salva</string>
+    <string name="Label_Valid_Codes_List">Lista codici validi</string>
+    <string name="Label_button_remove">Rimuovi</string>
+</resources>

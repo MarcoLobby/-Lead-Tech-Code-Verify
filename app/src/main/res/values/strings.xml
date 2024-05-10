@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lead Tech code\'s Verify</string>
+    <string name="label_insertcode">Insert your code here</string>
+    <string name="label_save">Save</string>
+    <string name="Label_Valid_Codes_List">Valid codes list</string>
+    <string name="Label_button_remove">Remove</string>
+</resources>
