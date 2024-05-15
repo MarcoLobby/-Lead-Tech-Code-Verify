@@ -2,14 +2,12 @@ package com.example.verificacodiceleadtech.components
 
 import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.interaction.collectIsFocusedAsState
-import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
-import androidx.compose.material3.TextFieldColors
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
@@ -25,6 +23,7 @@ import androidx.compose.ui.unit.sp
 import com.example.verificacodiceleadtech.utils.getErrorBorder
 import com.example.verificacodiceleadtech.utils.getFocusedBorder
 
+//Definisco i parametri personalizzati dei composable che andrò ad utilizzare
 @Composable
 fun CustomTextField(
     modifier: Modifier = Modifier,
